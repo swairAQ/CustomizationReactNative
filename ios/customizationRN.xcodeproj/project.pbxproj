@@ -51,10 +51,11 @@
 		ABBBEE0A809344BBA53E8F42 /* ChelaOne-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ChelaOne-Regular.ttf"; path = "../src/assets/Fonts/ChelaOne-Regular.ttf"; sourceTree = "<group>"; };
 		B23AD0DEE49752684EBEC1B5 /* Pods-customizationRN-customizationRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customizationRN-customizationRNTests.release.xcconfig"; path = "Target Support Files/Pods-customizationRN-customizationRNTests/Pods-customizationRN-customizationRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAD54D7F89C9F85584992102 /* Pods-customizationRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customizationRN.release.xcconfig"; path = "Target Support Files/Pods-customizationRN/Pods-customizationRN.release.xcconfig"; sourceTree = "<group>"; };
+		CE195E32266CE4060094CFBF /* customizationRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = customizationRN.entitlements; path = customizationRN/customizationRN.entitlements; sourceTree = "<group>"; };
 		CEF526F62659954900041E34 /* ReggaeOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ReggaeOne-Regular.ttf"; path = "../../../../../Downloads/Reggae_One/ReggaeOne-Regular.ttf"; sourceTree = "<group>"; };
 		CEF526FA265995F000041E34 /* ChelaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ChelaOne-Regular.ttf"; path = "../../../../../Downloads/Chela_One/ChelaOne-Regular.ttf"; sourceTree = "<group>"; };
 		CEF52705265996E300041E34 /* Bernadette.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bernadette.ttf; path = ../../../../../Downloads/bernadette_2/Bernadette.ttf; sourceTree = "<group>"; };
-		DF328B7B0F5B4AB485FB36D1 /* Bernadette.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Bernadette.ttf; path = ../src/assets/Fonts/Bernadette.ttf; sourceTree = "<group>"; };
+		DF328B7B0F5B4AB485FB36D1 /* Bernadette.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Bernadette.ttf; path = ../src/assets/Fonts/Bernadette.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -101,6 +102,7 @@
 		13B07FAE1A68108700A75B9A /* customizationRN */ = {
 			isa = PBXGroup;
 			children = (
+				CE195E32266CE4060094CFBF /* customizationRN.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -515,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = customizationRN/customizationRN.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = customizationRN/Info.plist;
@@ -541,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = customizationRN/customizationRN.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = customizationRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
